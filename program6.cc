@@ -9,13 +9,10 @@
 #include <fstream>
 
 
-<<<<<<< HEAD
 #define MATRIX_WIDTH 4
 #define MATRIX_HEIGHT 3
-=======
 #define MATRIX_WIDTH 3
 #define MATRIX_HEIGHT 5
->>>>>>> working
 #define BOX_WIDTH 15
 #define MATRIX_NAME_STRING "Test Matrix"
 
@@ -29,13 +26,8 @@ int main()
   CDKSCREEN	*cdkscreen;
   CDKMATRIX     *myMatrix;           // CDK Screen Matrix
 
-<<<<<<< HEAD
-=======
   ifstream binInfile ("cs3377.bin", ios::in | ios::binary);
 
-  
-
->>>>>>> working
   // Remember that matrix starts out at 1,1.
   // Since arrays start out at 0, the first entries
   // below ("R0", and "C0") are just placeholders
@@ -44,13 +36,10 @@ int main()
   // values you choose to set for MATRIX_WIDTH and MATRIX_HEIGHT
   // above.
 
-<<<<<<< HEAD
   const char 		*rowTitles[] = {"R0", "R1", "R2", "R3", "R4", "R5"};
   const char 		*columnTitles[] = {"C0", "C1", "C2", "C3", "C4", "C5"};
-=======
   const char 		*rowTitles[] = {"R0", "a", "b", "c", "d", "e"};
   const char 		*columnTitles[] = {"C0", "a", "b", "c", "C4", "C5"};
->>>>>>> working
   int		boxWidths[] = {BOX_WIDTH, BOX_WIDTH, BOX_WIDTH, BOX_WIDTH, BOX_WIDTH, BOX_WIDTH};
   int		boxTypes[] = {vMIXED, vMIXED, vMIXED, vMIXED,  vMIXED,  vMIXED};
 

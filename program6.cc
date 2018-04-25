@@ -62,7 +62,7 @@ int main()
       _exit(1);
     }
 
-  Display the Matrix
+  //Display the Matrix
   drawCDKMatrix(myMatrix, true);
 
   //put the headers in the top row

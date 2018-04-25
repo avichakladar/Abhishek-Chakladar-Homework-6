@@ -3,6 +3,7 @@
 
 #include <stdint.h>
 
+//holds the header informations
 class BinaryFileHeader{
 
  public:
@@ -12,8 +13,10 @@ class BinaryFileHeader{
 
 };
 
+//record string lengths can only be 25 characters long
 const int maxRecordStringLength = 25;
 
+//hold the record information
 class BinaryFileRecord{
 
  public:

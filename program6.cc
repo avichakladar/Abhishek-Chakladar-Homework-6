@@ -43,7 +43,7 @@ int main()
   int		boxTypes[] = {vMIXED, vMIXED, vMIXED, vMIXED,  vMIXED,  vMIXED};
 
   
-  //Make sure putty terminal is large enough
+  //Make sure terminal window is large enough
   window = initscr();
   cdkscreen = initCDKScreen(window);
 

@@ -2,6 +2,7 @@
 #axc161930@utddallas.edu
 #CS 3377.501
 
+#flags needed to compile
 CXX = g++
 CXXFLAGS =
 CPPFLAGS = -Wall -g -I/people/cs/s/sxp127930/include
@@ -10,10 +11,15 @@ LDLIBS = -lcdk -lcurses
 EXECFILE = program6
 OBJS = program6.o
 
+#make the exec file
 all: $(EXECFILE)
 
+#compile the exec file using the flags above
+$(EXECFILE): $(OBJS)
+	$(CXX) -o $@ $(OBJS) $(LDFLAGS) $(LDLIBS)
+
+#clean up the files
 clean:
 	rm -f $(OBJS) $(EXECFILE) *.P *~ \#*
 
-$(EXECFILE): $(OBJS)
-	$(CXX) -o $@ $(OBJS) $(LDFLAGS) $(LDLIBS)
+

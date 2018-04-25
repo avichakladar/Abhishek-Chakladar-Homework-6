@@ -4,7 +4,7 @@
 
 #flags needed to compile
 CXX = g++
-CXXFLAGS =
+#CXXFLAGS = no cxx flags needed
 CPPFLAGS = -Wall -g -I/people/cs/s/sxp127930/include
 LDFLAGS = -L/people/cs/s/sxp127930/lib
 LDLIBS = -lcdk -lcurses

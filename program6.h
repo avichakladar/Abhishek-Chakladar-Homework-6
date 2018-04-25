@@ -1,3 +1,9 @@
+/*
+Abhishek Chakladar(axc161930)
+axc161930@utdallas.edu
+CS 3377.501
+*/
+
 #ifndef PROGRAM6_H
 #define PROGRAM6_H
 
